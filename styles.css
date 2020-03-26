@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-template-rows: 2fr;
+
+}
+
+.bluetitle{
+    color: #55aef2;
+    text-transform: uppercase;
+    font-size: larger;
+
+
+}
+
+.redbackground{
+    background-color: #c12051;
+}
+
+.bluebackground{
+    background-color: #1c93ee;
+}
+
+.header{
+    grid-column: 1/12;
+    grid-row: 1;
+    display: left;
+}
+
+.col1-4{
+    grid-column: 1/4;
+    grid-row: 2;
+    display: left;
+   
+}
+
+.col5-8{
+    grid-column: 5/8;
+    grid-row: 2;
+    display: left;
+}
+
+.col9-12{
+    grid-column: 9/12;
+    grid-row: 2;
+}
