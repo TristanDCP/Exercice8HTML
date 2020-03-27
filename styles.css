@@ -113,3 +113,9 @@ img{
     margin: 0;
     padding: 0.4rem
 }
+
+.border-line{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-bottom: 0.1rem  #958f8e  solid;
+}
