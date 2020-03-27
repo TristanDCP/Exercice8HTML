@@ -101,7 +101,7 @@ img{
     color: #fcfaee;
     display: inline-block;
     margin: 0em;
-    padding: 0.2rem
+    padding: 0.2rem;
 }
 
 .img-category-red{
@@ -115,7 +115,7 @@ img{
     color: #fcfaee;
     display: inline-block;
     margin: 0;
-    padding: 0.2rem
+    padding: 0.2rem;
 }
 
 .border-line{
@@ -124,5 +124,5 @@ img{
 }
 
 .border-line-lastchild{
-    margin: 1em;
+    margin: 1em 0;
 }
