@@ -1,48 +1,128 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 12;
-    grid-template-rows: 2;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 1em;
 }
 
-.cell {
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-    padding: 4rem;
+.bluetitle{ 
+    color: #55aef2;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 
-.cell-1 {
-    background: deepskyblue;
+.redbackground{
+    background-color: #c12051;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #fcfaee;
+    display: inline-block;
+    margin: 0;
+    padding: 0.4rem
 }
 
-.cell-2 {
-    background: orangered;
+.bluebackground{
+    background-color: #1c93ee;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #fcfaee;
+    display: inline-block;
+    margin: 0;
+    padding: 0.4rem
 }
 
-.cell-3 {
-    background: royalblue;
+#header{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+#col1{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 
-.cell-4 {
-    background: gold;
+#col2{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    }
+
+#col3{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 2;
+   }
+
+.body{
+    font-weight: bold;
+   }
+
+.maintitle{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+    
 }
 
-.cell-5 {
-    background: blueviolet;
+.column{
+    margin: 0.5rem;;
 }
 
-.cell-6 {
-    background: limegreen;
+img{
+    width: 100%;
+    height: auto;
 }
 
-.cell-7 {
-    background: coral;
+.img-container{
+    position: relative;
 }
 
-.cell-8 {
-    background: lightseagreen;
+.img-category-blue{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1c93ee;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #fcfaee;
+    display: inline-block;
+    margin: 0em;
+    padding: 0.2rem;
 }
 
-.cell-9 {
-    background: maroon;
+.img-category-red{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #c12051;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #fcfaee;
+    display: inline-block;
+    margin: 0;
+    padding: 0.2rem;
+}
+
+.border-line{
+    border-bottom: 0.1rem  #958f8e  solid;
+    margin: 1em 0;
+}
+
+.border-line-lastchild{
+    margin: 1em 0;
 }
